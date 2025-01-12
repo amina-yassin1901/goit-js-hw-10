@@ -15,3 +15,169 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 
+main {
+  height: auto;
+  max-height: 200px;
+}
+
+
+
+.timer {
+  padding-left: 150px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+}
+
+.timer .field {
+  text-align: center;
+}
+
+.timer .value {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.timer .label {
+  font-size: 1rem;
+  color: #666;
+}
+
+.container-datetime {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding-left: 150px;
+}
+
+
+.datetime {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.btn {
+  background-color: rgb(175, 76, 175);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.countdown {
+  font-size: 2rem;
+  color: #222;
+  margin-top: 20px;
+}
+
+
+
+
+
+.form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+
+.form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.input-number {
+  width: 94%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #666;
+  border-radius: 4px;
+  font-size: 14px;
+  display: block;
+}
+
+
+.fieldset {
+  margin: 20px 0;
+  border: #666 solid 2px;
+  border-radius: 8px;
+  padding-left: 48px;
+  padding-right: 48px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.fieldset-legend {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.fieldset-label {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.input-radio {
+  margin-right: 5px;
+}
+
+/* Кнопка отправки */
+.btn-submit {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #45a049;
+}
+
+
+.notification {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  color: white;
+}
+
+.notification.success {
+  background-color: #4caf50;
+}
+
+.notification.error {
+  background-color: #f44336;
+}
